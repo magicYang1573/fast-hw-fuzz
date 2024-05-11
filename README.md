@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the source code of our submission *"Faster Hardware Fuzzing in Practical IC Verification Workflow"* for ITC 2024.
+This is the source code of our submission *"Faster Hardware Fuzzing for Practical IC Verification Workflow"* for ITC 2024.
 
 ![Overview of faster hardware fuzzing framework](overview.png)
 
