@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the source code of our submission *"Faster Hardware Fuzzing in Standard IC Verification Workflow"* for ITC 2024.
+This is the source code of our submission *"Faster Hardware Fuzzing in Practical IC Verification Workflow"* for ITC 2024.
 
 ![Overview of faster hardware fuzzing framework](overview.png)
 
@@ -37,8 +37,6 @@ make
 ```
 Then we can run fast-rtl-fuzz through scripts provided.
 ```.sh
-source env.sh
-./run.sh
-make
+bash run.sh
 ```
 
