@@ -6,19 +6,18 @@ This is the source code of our submission *"Faster Hardware Fuzzing in Practical
 
 ![Overview of faster hardware fuzzing framework](overview.png)
 
-Our framework is built upon RTL Fuzz Lab and JQF. We have solved the above speed challenges in hardware fuzzing and achieved a speedup of hundreds of times with RTL Fuzz Lab. 
+Our framework **FastHwFuzz** is built upon RTL Fuzz Lab and JQF. We have solved the above speed challenges in hardware fuzzing and achieved a speedup of hundreds of times compared with RTL Fuzz Lab. 
 
 ## Installation
 
 The following dependencies are required to run this software:
 * make
-* gcc
-* g++
-* java
-* sbt
+* gcc, g++
+* java, sbt
 * verilator
-* matplotlib
-* scipy
+* matplotlib, scipy
+
+To run our FastHwFuzz:
 
 Firstly, our modified chiseltest should be packaged and published locally.
 ```.sh
@@ -35,7 +34,7 @@ export VERILATOR_ROOT=`pwd`
 ./configure
 make
 ```
-Then we can run fast-rtl-fuzz through scripts provided.
+Then we can run FastHwFuzz through scripts provided.
 ```.sh
 bash run.sh
 ```
