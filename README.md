@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This is the source code of our submission *"Faster Hardware Fuzzing for Practical IC Verification Workflow"* for ITC 2024.
+This is the source code of our submission *"Faster Hardware Fuzzing for Practical IC Verification Workflow"* for DATE 2025.
 
 ![Overview of faster hardware fuzzing framework](overview.png)
 
-Our framework **FastHwFuzz** is built upon RTL Fuzz Lab and JQF. We have solved the above speed challenges in hardware fuzzing and achieved a speedup of hundreds of times compared with RTL Fuzz Lab. 
+Our framework **FastHwFuzz** is built upon RTL Fuzz Lab and JQF. We have solved the above speed bottlenecks in hardware fuzzing and achieved a speedup of hundreds of times compared with RTL Fuzz Lab. 
 
 ## Installation
 
