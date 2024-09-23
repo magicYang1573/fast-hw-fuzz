@@ -13,9 +13,8 @@ Our framework **FastHwFuzz** is built upon RTL Fuzz Lab and JQF. We have solved 
 The following dependencies are required to run this software:
 * make
 * gcc, g++
-* java, sbt
-* verilator
-* matplotlib, scipy
+* java (version >= 11), sbt
+
 
 To run our FastHwFuzz:
 
